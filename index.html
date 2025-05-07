@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta
+			name="viewport"
+		  	content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
+		>
+		<meta name="theme-color" content="#000000">
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+		<title>Мой календарь</title>
+	</head>
+	<body>
+		<div id="root">
+			<iframe src="https://calendar.google.com/calendar/embed?src=e3188d28b4ced4d6347be58977e267035a0fbb73e6a66575c2f461c6b084e4d3%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		</div>
+
+
+        <script>
+            function initBridge() {
+              vkBridge.send('VKWebAppInit');
+            }
+          </script>
+          <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js" onload="initBridge()"></script>
+	</body>
+</html>
